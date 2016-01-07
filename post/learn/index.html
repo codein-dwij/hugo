@@ -1,0 +1,158 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Lets Learn To Setup a Blog Using Hugo &middot; Lets Learn hugo </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/hugo/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/hugo/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Lets Learn hugo" />
+    
+    <script src="http://localhost:1313/hugo/js/jquery.min.js"></script>
+    <script src="http://localhost:1313/hugo/js/main.min.js">
+    </script>
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        " >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://localhost:1313/hugo/"  title="link to homepage for Lets Learn hugo">Lets Learn hugo</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  Lets Learn To Setup a blog using Hugo! This is a blog made using Hugo too!  </p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="navigation">
+                            <li class="navigation__item"><a href="http://localhost:1313/hugo#blog" title="link to Lets Learn hugo blog" class="blog-button">Blog</a> </li>
+                            </br>  </ul>
+                    </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation">    </br>    </ul>
+</nav>
+ </div>
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: Url()">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://localhost:1313/hugo/"  title="link to homepage for Lets Learn hugo">Lets Learn hugo</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                     <p class="panel-cover__description">  Lets Learn To Setup a blog using Hugo! This is a blog made using Hugo too!  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                                <li class="navigation__item"><a href="http://localhost:1313/hugo/#blog" title="link to Lets Learn hugo blog" class="blog-button">Blog</a> </li>
+                                </br>  </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation">    </br>    </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post">
+          <h1>Lets Learn To Setup a Blog Using Hugo</h1>
+          <span class="post-date">Mon, Dec 28, 2015</span>
+          <p>IMP - This post is based on WINDOWS version of Hugo.</p>
+
+<p>Hugo is a static website generator. Okay, our first step is to have Hugo and Git installed on your PC. Once installed, make sure it is kept in your system path.</p>
+
+<p>Run cmd on you PC and set the location where you want to work on the blog.After doing that that type the following command :-</p>
+
+<pre><code>                             hugo new site [Folder name you want to create]    {for example :- hugo new site learn}
+</code></pre>
+
+<p>A new folder will be created where you set the location. Now type another command to add a new post to your blog.</p>
+
+<pre><code>                             hugo new post/[post name].md                      {for example :- hugo new post/first.md}
+</code></pre>
+
+<p>Now we need to add a theme for our blog..  create a folder named themes and change the location of your cmd to themes folder and type the next command</p>
+
+<pre><code>                             git clone [the theme repository link]             {for example :- git clone https://github.com/SenjinDarashiva/hugo-uno.git}                                
+</code></pre>
+
+<p>Once it has been cloned, go to the folder where we made our blog. You may see a file called config.toml. Edit it using notepad or any text editor. You may see a code &ldquo;title=&rdquo;&hellip;. you may edit the title to any title you want.
+Then add a new line of code :-</p>
+
+<pre><code>                             theme = &quot;[theme name]&quot;                            {for example :- theme = &quot;hugo-uno&quot;}
+</code></pre>
+
+<p>After doing this, return back to the folder and you will find a folder called content and then post. Your post will be there. Edit it now. You may write whatever you want to below the &ldquo;+&rdquo; sign as it is the content of your post.Save your file after doing this.</p>
+
+<p>The final step is to type the following command :-</p>
+
+<pre><code>                             hugo server -w
+</code></pre>
+
+<p>Open your browser and type the following and press enter.</p>
+
+<pre><code>                             http://localhost:1313
+</code></pre>
+
+<p>That&rsquo;s all , Our Blog is ready to view. You may later upload it to github and use it as a page..</p>
+
+        </div>
+        <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Lets%20Learn%20To%20Setup%20a%20Blog%20Using%20Hugo-http%3a%2f%2flocalhost%3a1313%2fhugo%2fpost%2flearn%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fhugo%2fpost%2flearn%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2fhugo%2fpost%2flearn%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2fhugo%2fpost%2flearn%2f&title=Lets%20Learn%20To%20Setup%20a%20Blog%20Using%20Hugo" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fhugo%2fpost%2flearn%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fhugo%2fpost%2flearn%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+        
+
+
+
+      </div>
+    </div>
+
+  </body>
+  
+</html>

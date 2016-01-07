@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Development on Lets Learn hugo </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://localhost:1313/hugo/categories/development/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 28 Dec 2015 18:52:35 IST</updated>
+    
+    <item>
+      <title>Lets Learn To Setup a Blog Using Hugo</title>
+      <link>http://localhost:1313/hugo/post/learn/</link>
+      <pubDate>Mon, 28 Dec 2015 18:52:35 IST</pubDate>
+      
+      <guid>http://localhost:1313/hugo/post/learn/</guid>
+      <description>&lt;p&gt;IMP - This post is based on WINDOWS version of Hugo.&lt;/p&gt;
+
+&lt;p&gt;Hugo is a static website generator. Okay, our first step is to have Hugo and Git installed on your PC. Once installed, make sure it is kept in your system path.&lt;/p&gt;
+
+&lt;p&gt;Run cmd on you PC and set the location where you want to work on the blog.After doing that that type the following command :-&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                             hugo new site [Folder name you want to create]    {for example :- hugo new site learn}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A new folder will be created where you set the location. Now type another command to add a new post to your blog.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                             hugo new post/[post name].md                      {for example :- hugo new post/first.md}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now we need to add a theme for our blog..  create a folder named themes and change the location of your cmd to themes folder and type the next command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                             git clone [the theme repository link]             {for example :- git clone https://github.com/SenjinDarashiva/hugo-uno.git}                                
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once it has been cloned, go to the folder where we made our blog. You may see a file called config.toml. Edit it using notepad or any text editor. You may see a code &amp;ldquo;title=&amp;rdquo;&amp;hellip;. you may edit the title to any title you want.
+Then add a new line of code :-&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                             theme = &amp;quot;[theme name]&amp;quot;                            {for example :- theme = &amp;quot;hugo-uno&amp;quot;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After doing this, return back to the folder and you will find a folder called content and then post. Your post will be there. Edit it now. You may write whatever you want to below the &amp;ldquo;+&amp;rdquo; sign as it is the content of your post.Save your file after doing this.&lt;/p&gt;
+
+&lt;p&gt;The final step is to type the following command :-&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                             hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Open your browser and type the following and press enter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                             http://localhost:1313
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s all , Our Blog is ready to view. You may later upload it to github and use it as a page..&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
