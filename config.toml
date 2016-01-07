@@ -1,0 +1,9 @@
+baseurl = "http://codein-dwij.github.io/hugo/"
+languageCode = "en-us"
+title = "Lets Learn hugo"
+theme="hugo-uno"
+
+
+
+[params]
+description ="Lets Learn To Setup a blog using Hugo! This is a blog made using Hugo too!"
